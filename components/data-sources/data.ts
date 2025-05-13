@@ -1,0 +1,68 @@
+import type { DataSource } from "./columns"
+
+export const dataSources: DataSource[] = [
+  {
+    id: "ds-001",
+    name: "IoT Sensor Network",
+    type: "MQTT",
+    status: "active",
+    throughput: 1250,
+    lastUpdated: "2 minutes ago",
+  },
+  {
+    id: "ds-002",
+    name: "Social Media Feed",
+    type: "REST API",
+    status: "active",
+    throughput: 850,
+    lastUpdated: "5 minutes ago",
+  },
+  {
+    id: "ds-003",
+    name: "Financial Transactions",
+    type: "Kafka Stream",
+    status: "active",
+    throughput: 620,
+    lastUpdated: "1 minute ago",
+  },
+  {
+    id: "ds-004",
+    name: "Weather Data Service",
+    type: "WebSocket",
+    status: "active",
+    throughput: 120,
+    lastUpdated: "10 minutes ago",
+  },
+  {
+    id: "ds-005",
+    name: "User Activity Logs",
+    type: "Log Files",
+    status: "inactive",
+    throughput: 0,
+    lastUpdated: "1 hour ago",
+  },
+  {
+    id: "ds-006",
+    name: "E-commerce Orders",
+    type: "Database CDC",
+    status: "error",
+    throughput: 0,
+    lastUpdated: "30 minutes ago",
+  },
+  {
+    id: "ds-007",
+    name: "Traffic Monitoring System",
+    type: "MQTT",
+    status: "active",
+    throughput: 380,
+    lastUpdated: "7 minutes ago",
+  },
+  {
+    id: "ds-008",
+    name: "Healthcare Metrics",
+    type: "REST API",
+    status: "active",
+    throughput: 95,
+    lastUpdated: "15 minutes ago",
+  },
+]
